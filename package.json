@@ -1,0 +1,14 @@
+{
+  "name": "kubectl-extra",
+  "version": "0.1.0",
+  "packageManager": "yarn@3.2.0",
+  "bin": {
+	  "kubectl-extra": "src/kubectl-extra.js"
+   },
+  "dependencies": {
+    "cli-select": "^1.1.2",
+    "cli-util-proxy": "^0.1.4",
+    "fuzzysearch": "^1.0.3",
+    "fuzzysort": "^1.2.1"
+  }
+}
