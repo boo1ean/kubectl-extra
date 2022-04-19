@@ -8,14 +8,26 @@ Works exactly like `kubectl` but with some extra utils
 npm i -g kubectl-extra
 ```
 
-## Command
+## Commands
 
-### Get pod logs
+Create shortcut for convenience
+
 ```
-kubectl-extra p l <query>
-
-# translates into
-
-kubectl logs some-long-pod-name
+# somewhere in .bashrc
+alias k=kubectl-extra
 ```
 
+### Get pod logs by fuzzy query
+```
+k p l <query>
+```
+
+### Get decoded secrets by fuzzy query
+```
+k g c <query>
+```
+
+### Get current context
+```
+k cc
+```
