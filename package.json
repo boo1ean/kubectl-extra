@@ -1,9 +1,9 @@
 {
   "name": "kubectl-extra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "yarn@3.2.0",
   "bin": {
-	  "kubectl-extra": "src/kubectl-extra.js"
+	  "kubectl-extra": "bin/kubectl"
    },
   "dependencies": {
     "cli-select": "^1.1.2",

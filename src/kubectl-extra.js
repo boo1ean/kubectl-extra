@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const { createProxy } = require('cli-util-proxy')
 const fuzzy = require('fuzzysearch')
 const fuzzySort = require('fuzzysort')
